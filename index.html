@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/inde.css">
+</head>
+<body>
+    <div class="div1" id="formdiv">
+        <form action="id.html">
+            <table>
+                <tr>
+                    <td><label>User Name: <span><sup style="color: red;">*</sup></span></label></td>
+                    <td><input type="text" name="Username" id="user" placeholder="Enter your Name" required></td>
+                </tr>
+                <tr>
+                    <td><label>Admin No:<span><sup style="color: red;">*</sup></span></label></td>
+                    <td><input type="text" name="aadhar" id="admin" placeholder="Enter your Admin number" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email id:<span><sup style="color: red;">*</sup></span></label></td>
+                    <td><input type="email" name="aadhar" id="email" placeholder="Enter your Email id" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password:<span><sup style="color: red;">*</sup></span></label></td>
+                    <td><input type="password" name="password" id="pass" placeholder="Enter password" required></td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth:</label></td>
+                    <td><input type="date" name="dob" id="dob" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td><input type="radio" name="gender" id="fem" required>Female
+                    <input type="radio" name="gender" id="male" required>Male
+                    <input type="radio" name="gender" id="other" required>Other</td>
+                </tr>
+                <tr>
+                    <td><label>Aadhar Number:<span><sup style="color: red;">*</sup></span></label></td>
+                    <td><input type="text" name="aadhar" id="aadhar" placeholder="Enter your Aadhar number" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label>Blood group:</label></td>
+                    <td><input type="text" name="Blood" id="Bloodgroup" placeholder="Enter your blood group" required></td>
+                </tr>
+                <tr>
+                    <td><label>Address</Address>:<span><sup style="color: red;">*</sup></span></label></td>
+                    <td><textarea id="myTextarea"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Department:<span><sup style="color: red;">*</sup></span></label></td>
+                    <td><input type="text" name="dept" id="dept" placeholder="Enter your department" required></td>
+                </tr>
+                <tr>
+                    <td><label>Role:<span><sup style="color: red;">*</sup></span></label></td>
+                    <td><input type="text" name="role" id="role" placeholder="Enter your destination" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">upload your photo:<span><sup style="color: red;">*</sup></span></label></td>
+                    <td><input type="file" name="photo" accept="image/*" id="image"></td>
+                </tr>
+                <tr>
+                    <td><button  type="submit" onclick="passvalues(),storeImage()">submit</button></td>
+                    <td><button type="button">reset</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+
+   
+      <script src="./index.js"></script>
+</body>
+</html>
